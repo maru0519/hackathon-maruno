@@ -9,7 +9,7 @@ https://drive.google.com/file/d/15iLmMW84r0WHwjWL_qhZJJN9oR6jkln5/view?usp=shari
 
 ・一台のNFCで、入室と退室を両方管理
 
-・その情報をGoogle ｓｐreadsheets、Slackの指定したチャネルに同時投稿
+・その情報をGooglesｐreadsheets、Slackの指定したチャネルに同時投稿
 
 ・インターネット接続が途切れた時用に、CSVにも保存
 
