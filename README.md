@@ -6,3 +6,9 @@ Python version
 python -v
 Python 3.7.3
 ```
+# Crontab
+
+```bash
+00 0 * * * /sbin/reboot
+@reboot sleep 10 && bash /home/pi/Desktop/hoge.sh 2>>/home/pi/Desktop/error.log
+```
