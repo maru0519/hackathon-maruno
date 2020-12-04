@@ -1,5 +1,13 @@
 # 入退室管理システムの開発
 ラズベリーパイ4とNFCカードリーダーを用いた入退室管理を行う。
+# 運用動画URL
+https://drive.google.com/file/d/15iLmMW84r0WHwjWL_qhZJJN9oR6jkln5/view?usp=sharing
+#システム機能
+・学生番号、時間、部屋場所を取得
+・一台のNFCで、入室と退室を両方管理
+・その情報をGoogle ｓｐreadsheets、Slackの指定したチャネルに同時投稿
+・インターネット接続が途切れた時用に、CSVにも保存
+・タッチした際、音によるフィードバック
 # 環境
 Python version
 ```bash
