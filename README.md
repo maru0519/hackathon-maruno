@@ -3,7 +3,8 @@
 
 # 運用動画URL
 https://drive.google.com/file/d/15iLmMW84r0WHwjWL_qhZJJN9oR6jkln5/view?usp=sharing
-#システム機能
+
+# システム機能
 ・学生番号、時間、部屋場所を取得
 ・一台のNFCで、入室と退室を両方管理
 ・その情報をGoogle ｓｐreadsheets、Slackの指定したチャネルに同時投稿
