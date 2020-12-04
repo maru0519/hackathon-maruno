@@ -27,3 +27,28 @@ Python 3.7.3
 00 0 * * * /sbin/reboot
 @reboot sleep 10 && bash /home/pi/Desktop/hoge.sh 2>>/home/pi/Desktop/error.log
 ```
+
+# ライブラリのインストール
+必要なライブラリのインストールを行う。
+
+NFCカードリーダーを使用するライブラリ
+```bash
+pip instal nfcpy
+```
+Googleスプレッドシートに記入を行うライブラリ
+```bash
+pip install gspread
+```
+API取得のKeyを読み込むライブラリ
+```bash
+pip install oauth2client
+```
+音によるフィードバックに使用したライブラリ
+```bash
+pip install pygame
+```
+
+# プログラムの実行
+```bash
+sudo python3 hackathon.py
+```
