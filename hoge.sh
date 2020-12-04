@@ -1,2 +1,2 @@
-sudo python /home/pi/Desktop/ha.py
+sudo python /home/pi/Desktop/hackathon.py
 
