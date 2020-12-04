@@ -7,9 +7,9 @@ https://drive.google.com/file/d/15iLmMW84r0WHwjWL_qhZJJN9oR6jkln5/view?usp=shari
 # システム機能
 ・学生番号、時間、部屋情報を取得
 
-・その情報をGoogleスプレッドシート、Slackの指定したチャネルに同時投稿
-
 ・一台のNFCで、入室と退室を両方管理
+
+・それらの情報を、Googleスプレッドシート、Slackの指定したチャネルに同時投稿
 
 ・インターネット接続が途切れた時用に、CSVにも保存
 
