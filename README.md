@@ -21,12 +21,6 @@ Python version
 python -v
 Python 3.7.3
 ```
-# Crontab
-日付変更のタイミングで強制再起動を行う。再起動後、自動的に入退室プログラムを起動させる。
-```bash
-00 0 * * * /sbin/reboot
-@reboot sleep 10 && bash /home/pi/Desktop/hoge.sh 2>>/home/pi/Desktop/error.log
-```
 
 # ライブラリのインストール
 必要なライブラリのインストールを行う。
@@ -46,6 +40,13 @@ pip install oauth2client
 音によるフィードバックに使用したライブラリ
 ```bash
 pip install pygame
+```
+
+# 定時実行のスケジュール管理を行うために用いられるコマンド（Crontab）
+日付変更のタイミングで強制再起動を行う。再起動後、自動的に入退室プログラムを起動させる。
+```bash
+00 0 * * * /sbin/reboot
+@reboot sleep 10 && bash /home/pi/Desktop/hoge.sh 2>>/home/pi/Desktop/error.log
 ```
 
 # プログラムの実行
