@@ -48,8 +48,3 @@ pip install pygame
 00 0 * * * /sbin/reboot
 @reboot sleep 10 && bash /home/pi/Desktop/hoge.sh 2>>/home/pi/Desktop/error.log
 ```
-
-# プログラムの実行
-```bash
-sudo python3 hackathon.py
-```
